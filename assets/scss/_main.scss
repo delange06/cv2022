@@ -2,23 +2,71 @@ figure {
     margin: 0;
 }
 
+header {
+    text-align: center;
+    img {
+        filter: grayscale(100);
+    }
+}
+
 
 a {
-    color: gold;
-    &:hover {color: red;}
-    &:active {color: black;}
+    color: $primary_color;
+    &:hover {color: $secondary_color;}
+    &:active {color: $primary_color;}
+
+}
+
+ul {
+    list-style: none;
 }
 
 nav {
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
     ul {
-    list-style: none;
      display: flex;
      justify-content: space-around;
      gap: 1em;
      li {
-         padding: 10px;
+         flex: 1 0 auto; // le texte dans le li ne passe pas à la ligne
+         background: $primary_color;
+         padding: 5px;
+         font-family: Roboto;
+         &:hover {
+            background-color: $white;
+            color: $primary_color;
+            a {
+                color: $primary_color;
+            }
+        }
+         a {
+            color: $white;
+            text-decoration: none;
+         }
      }
 }
+}
+
+h1 {
+    font-family: open-sans;
+    color: $primary_color;
+    text-align: center;
+}
+
+h2 {
+    color: $tersary_color;
+}
+
+/**  Section à propos   **/
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 4vh;
 }
