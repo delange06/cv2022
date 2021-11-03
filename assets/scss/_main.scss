@@ -16,7 +16,9 @@ nav {
     list-style: none;
      display: flex;
      justify-content: space-around;
-      
-
+     gap: 1em;
+     li {
+         padding: 10px;
+     }
 }
 }
