@@ -14,7 +14,6 @@ nav {
   nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
-    gap: 1em; }
+    justify-content: space-around; }
 
 /*# sourceMappingURL=style.css.map */
