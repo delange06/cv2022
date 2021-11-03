@@ -1,14 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-16x16.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <title>CV</title>
 </head>
+
+<body>
+    <header>
+        <figure><img src="assets/img/dev-worker_x2100.jpg" 
+            srcset="assets/img/dev-worker_x2100.jpg 2100w, assets/img/dev-worker_x1550.jpg 1550w, assets/img/dev-worker_x775.jpg 775w, assets/img/dev-worker_x390.jpg 390w" 
+            alt="jlc"
+            sizes="(min-width: 400) 775px, (min-width: 960) 1550px, (min-width: 1600) 2100px, 100vw">
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Competences</a></li>
+                <li><a href="#">Experiences</a></li>
+                <li><a href="#">Formation</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Developpeur front-end</h1>
+    </header>
+    <main>
+        <section>
+            <h2>A propos</h2>
+            <div class="apropos_foto">
+                <figure><img src="https://via.placeholder.com/150" alt="photo de profil"></figure>
+            </div>
+            <div class="description">
+                <ul>
+                    <li>Jeanluc</li>
+                    <li>Crobeddu</li>
+                    <li><a href="mailto:jfrf@gmail.com">Contact mail</a></li>
+                    <li><a href="tel:0658745520">tel</a></li>
+                    <li><address>rue du fer 92122 Boulogne</address></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Competences</h2>
+            <table>
+                <caption>Mes compétences front-end</caption>
+                <thead>
+                  <tr>
+                    <th>Langage</th>
+                    <th>Progression</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>HTML</td>
+                    <td><progress class="file1" max="100" value="70"> 70% </progress></td>
+                  </tr>
+                  <tr>
+                    <td>CSS</td>
+                    <td><progress class="file2" max="100" value="30"> 30% </progress></td>
+                  </tr>
+                  <tr>
+                    <td>Git</td>
+                    <td><progress class="file3" max="100" value="40"> 40% </progress></td>
+                  </tr>
+                  <tr>
+                    <td>JavaScript</td>
+                    <td><progress class="file4" max="100" value="10"> 10% </progress></td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tfoot>
+              </table>
+        </section>
+        <section>
+            <h2>Experience pro</h2>
+            <article>
+                <h3>MS2i</h3>
+                <h4>2018 - 2020</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima architecto voluptas sapiente eligendi, dolorem labore delectus assumenda illum officiis illo voluptatem molestiae. Facere doloribus deserunt dicta est possimus id deleniti.
+                    Accusantium sapiente a ea corporis. Quisquam, illum aperiam quam quasi soluta ad magni delectus ullam eius nisi maxime facilis alias eaque harum! Suscipit, repellendus! Voluptas et libero unde eaque culpa.
+                </p>
+            </article>
+            <article>
+                <h3>Atos</h3>
+                <h4>2015 - 2018</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima 
+                    ium sapiente a ea corporis. Quisquam, illum aperiam quam quasi soluta ad magni delectus ullam eius nisi maxime facilis alias eaque harum! Suscipit, repellendus! Voluptas et libero unde eaque culpa.
+                </p>
+            </article>
+            <article>
+                <h3>Prologue</h3>
+                <h4>2010 - 2015</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima architecto voluptas sapiente eligendi, dolorem labore delectus assumenda illum officiis illo voluptatem molestiae. Facere doloribus deserunt dicta est possimus id deleniti.
+                    Accusaipit, repellendus! Voluptas et libero unde eaque culpa.
+                </p>
+            </article>
+        </section>
+        <section>
+            <h2>formation</h2>
+            <article>
+                <h3>Webforce1</h3>
+                <h4>2 mois</h4>
+                <h5>Nanterre</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste totam eum accusamus doloribus perferendis, velit aperiam laboriosam provident quo vero esse cum explicabo ab itaque asperiores culpa sed nam doloremque!</p>
+            </article>
+            <article>
+                <h3>Webforce2</h3>
+                <h4>3 mois</h4>
+                <h5>Paris 1</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio obcaecati eos exercitationem dolorum quis facere voluptatibus eius odit? Repudiandae totam inventore id perspiciatis velit voluptatem quasi obcaecati fugiat. Quis, labore?</p>
+            </article>
+            <article>
+                <h3>Webforce3</h3>
+                <h4>1 mois</h4>
+                <h5>Paris 2</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum iusto labore officiis! Qui quod nisi rerum iure magni modi in assumenda perspiciatis rem pariatur. Amet excepturi doloribus dignissimos ipsum sequi?</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <span><i class="fab fa-facebook"></i></span><span><i class="fab fa-linkedin"></i></span><span><i class="fab fa-twitter"></i></span>
+        </div>
+        <div class="copy">copyright &#169;</div>
+        <div class="links"></div>
+    </footer>
+</body>
 
