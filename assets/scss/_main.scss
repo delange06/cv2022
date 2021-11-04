@@ -1,3 +1,7 @@
+html {
+    font-family: 'Roboto';
+}
+
 figure {
     margin: 0;
 }
@@ -70,3 +74,29 @@ h2 {
 h1 {
     font-size: 4vh;
 }
+
+
+.description {
+    li {
+        &:nth-child(1) {
+            font-size: 1.5em;
+        }
+        &:nth-child(2) {
+            position: relative;
+            &::before{
+                font-size: 1.2em;
+                position: absolute;
+                top: 0px;
+                left: -20px;
+                font-family: "Material Icons";
+                content: "\e0be";
+            }
+        }
+    }
+}
+
+.desktop {
+    display: show;
+
+}
+
